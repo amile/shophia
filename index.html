@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<!--[if IE 9]>
+<html lang='ru' class='ie9'>
+<![endif]-->
+<!--[if gt IE 9]><!-->
+<html lang='ru'>
+	<!--<![endif]-->
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.6">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="imagetoolbar" content="no">
+		<meta name="msthemecompatible" content="no">
+		<meta name="cleartype" content="on">
+		<meta name="HandheldFriendly" content="True">
+		<meta name="format-detection" content="telephone=no">
+		<meta name="format-detection" content="address=no">
+		<meta name="google" value="notranslate">
+		<meta name="theme-color" content="#ffffff">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		<link sizes="57x57" href="/apple-touch-icon-57x57.png" rel="apple-touch-icon">
+		<link sizes="114x114" href="/apple-touch-icon-114x114.png" rel="apple-touch-icon">
+		<link sizes="72x72" href="/apple-touch-icon-72x72.png" rel="apple-touch-icon">
+		<link sizes="144x144" href="/apple-touch-icon-144x144.png" rel="apple-touch-icon">
+		<link sizes="60x60" href="/apple-touch-icon-60x60.png" rel="apple-touch-icon">
+		<link sizes="120x120" href="/apple-touch-icon-120x120.png" rel="apple-touch-icon">
+		<link sizes="76x76" href="/apple-touch-icon-76x76.png" rel="apple-touch-icon">
+		<link sizes="152x152" href="/apple-touch-icon-152x152.png" rel="apple-touch-icon">
+		<link sizes="180x180" href="/apple-touch-icon-180x180.png" rel="apple-touch-icon">
+		<link sizes="192x192" href="/favicon-192x192.png" rel="icon" type="image/png">
+		<link sizes="160x160" href="/favicon-160x160.png" rel="icon" type="image/png">
+		<link sizes="96x96" href="/favicon-96x96.png" rel="icon" type="image/png">
+		<link sizes="16x16" href="/favicon-16x16.png" rel="icon" type="image/png">
+		<link sizes="32x32" href="/favicon-32x32.png" rel="icon" type="image/png">
+		<link rel="manifest" href="/manifest.json">
+		<meta name="application-name" content="">
+		<meta name="msapplication-tooltip" content="">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-TileImage" content="/mstile-large.png">
+		<meta name="msapplication-starturl" content="https://csssr.github.io/csssr-project-template/">
+		<meta name="msapplication-tap-highlight" content="no">
+		<meta name="msapplication-square70x70logo" content="/mstile-small.png">
+		<meta name="msapplication-square150x150logo" content="/mstile-medium.png">
+		<meta name="msapplication-wide310x150logo" content="/mstile-wide.png">
+		<meta name="msapplication-square310x310logo" content="/mstile-large.png">
+		<title>CSSSR Application Form</title>
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<link href="./assets/styles/app.min.css" rel="stylesheet">
+	</head>
+
+	<body class="pageW">
+		<div class="container">
+			<header class="header">
+				<div class="header__layout">
+					<div class="logo">
+						<a href="http://csssr.ru" class="logo__link">
+							<img src="./assets/images/logo.png" alt="CSSSR" class="logo__logo" />
+						</a>
+						<p class="logo__text">Секретный архив учреждения</p>
+					</div>
+				</div>
+			</header>
+			<main class="main" role="main">
+				<div class="main__layout">
+					<img src="./assets/images/main-title.png" alt="ДЕЛО" class="main__title" />
+					<form class="form" method="post">
+						<div class="input form__row form__row_input display-flex">
+							<label for="fullname" class="input__label form__row-caption">Полное ФИО</label>
+							<div class="input__wrapper input__wrapper_fullname">
+								<input class="input__input" type="text" name="fullname" value="Михайлец Анна Дмитриевна" id="fullname" />
+							</div>
+						</div>
+						<div class="input form__row form__row_input display-flex">
+							<label for="birth-year" class="input__label form__row-caption">Год рождения</label>
+							<div class="input__wrapper input__wrapper_birth-year">
+								<input class="input__input" type="text" name="birth-year" value="1985" id="birth-year" />
+							</div>
+						</div>
+						<div class="input form__row form__row_input display-flex">
+							<label for="place-of-residence" class="input__label form__row-caption">Место жительства</label>
+							<div class="input__wrapper input__wrapper_place-of-residence">
+								<input class="input__input" type="text" name="place-of-residence" value="РФ, МО, г.Королев" id="place-of-residence"
+								/>
+							</div>
+						</div>
+						<div class="input form__row form__row_input display-flex">
+							<label for="skype" class="input__label form__row-caption">Скайп</label>
+							<div class="input__wrapper input__wrapper_skype">
+								<input class="input__input" type="text" name="skype" value="live:amile24" id="skype" />
+							</div>
+						</div>
+						<div class="input form__row form__row_input display-flex">
+							<label for="email" class="input__label form__row-caption">Почта</label>
+							<div class="input__wrapper input__wrapper_email">
+								<input class="input__input" type="email" name="email" value="3amile@gmail.com" id="email" />
+							</div>
+						</div>
+						<fieldset class="form__row form__row_htmlacademy">
+							<legend class="form__row-caption form__row-caption_htmlacademy">Выпускник
+								<a class="link" href="https://htmlacademy.ru" target="_blank">htmlacademy.ru</a>
+							</legend>
+							<div class="radio">
+								<label class="radio__label">
+									<input type="radio" name="htmlacademy" value="yes" />
+									<span class="radio__radio"></span>Да</label>
+							</div>
+							<div class="radio">
+								<label class="radio__label">
+									<input type="radio" name="htmlacademy" value="no" checked="checked" />
+									<span class="radio__radio"></span>Нет</label>
+							</div>
+						</fieldset>
+						<fieldset class="form__row form__row_skills">
+							<legend class="form__row-caption form__row-caption_skills">Практические навыки</legend>
+							<p class="form__text">
+								<span class="form__text_asterisk">*</span>Отметьте только те технологии и типы задач, с которыми вы хорошо знакомы. Отсутствие опыта отнюдь не означает,
+								что у вас меньше шансов стать нашим сотрудником. Это означает, что вы будете получать те задачи, с которыми гарантировано
+								будете справляться.</p>
+							<div class="form__checkbox-container">
+								<div class="checkbox">
+									<label class="checkbox__label">
+										<input type="checkbox" name="BEM" checked="checked" />
+										<span class="checkbox__checkbox"></span>Методология БЭМ</label>
+								</div>
+								<div class="checkbox">
+									<label class="checkbox__label">
+										<input type="checkbox" name="jQuery" />
+										<span class="checkbox__checkbox"></span>jQuery</label>
+								</div>
+								<div class="checkbox">
+									<label class="checkbox__label">
+										<input type="checkbox" name="GRUNT" checked="checked" />
+										<span class="checkbox__checkbox"></span>Использую GRUNT</label>
+								</div>
+								<div class="checkbox">
+									<label class="checkbox__label">
+										<input type="checkbox" name="HAML" />
+										<span class="checkbox__checkbox"></span>HAML</label>
+								</div>
+								<div class="checkbox">
+									<label class="checkbox__label">
+										<input type="checkbox" name="SASS" />
+										<span class="checkbox__checkbox"></span>SASS</label>
+								</div>
+								<div class="checkbox">
+									<label class="checkbox__label">
+										<input type="checkbox" name="LESS" />
+										<span class="checkbox__checkbox"></span>LESS</label>
+								</div>
+								<div class="checkbox">
+									<label class="checkbox__label">
+										<input type="checkbox" name="CoffeeScript" />
+										<span class="checkbox__checkbox"></span>CoffeeScript</label>
+								</div>
+							</div>
+							<div class="form__checkbox-container">
+								<div class="checkbox">
+									<label class="checkbox__label">
+										<input type="checkbox" name="Jade" checked="checked" />
+										<span class="checkbox__checkbox"></span>Jade</label>
+								</div>
+								<div class="checkbox">
+									<label class="checkbox__label">
+										<input type="checkbox" name="Stylus" checked="checked" />
+										<span class="checkbox__checkbox"></span>Stylus</label>
+								</div>
+								<div class="checkbox">
+									<label class="checkbox__label">
+										<input type="checkbox" name="Angular" />
+										<span class="checkbox__checkbox"></span>Знаю (изучаю) Angular</label>
+								</div>
+								<div class="checkbox">
+									<label class="checkbox__label">
+										<input type="checkbox" name="Android" />
+										<span class="checkbox__checkbox"></span>Верстка под Android</label>
+								</div>
+								<div class="checkbox">
+									<label class="checkbox__label">
+										<input type="checkbox" name="iOS" />
+										<span class="checkbox__checkbox"></span>Верстка под iOS</label>
+								</div>
+								<div class="checkbox">
+									<label class="checkbox__label">
+										<input type="checkbox" name="WindowsPhone" />
+										<span class="checkbox__checkbox"></span>Верстка под Windows Phone</label>
+								</div>
+							</div>
+							<div class="form__checkbox-container">
+								<div class="checkbox">
+									<label class="checkbox__label">
+										<input type="checkbox" name="Mailing" />
+										<span class="checkbox__checkbox"></span>Верстка рассылок</label>
+								</div>
+								<div class="checkbox">
+									<label class="checkbox__label">
+										<input type="checkbox" name="Adaptive" />
+										<span class="checkbox__checkbox"></span>Адаптивная верстка</label>
+								</div>
+								<div class="checkbox">
+									<label class="checkbox__label">
+										<input type="checkbox" name="Dropbox" checked="checked" />
+										<span class="checkbox__checkbox"></span>Использую Dropbox</label>
+								</div>
+								<div class="checkbox">
+									<label class="checkbox__label">
+										<input type="checkbox" name="Gmail" checked="checked" />
+										<span class="checkbox__checkbox"></span>Использую Gmail</label>
+								</div>
+								<div class="checkbox">
+									<label class="checkbox__label">
+										<input type="checkbox" name="GitHub" checked="checked" />
+										<span class="checkbox__checkbox"></span>Использую GitHub</label>
+								</div>
+							</div>
+						</fieldset>
+						<fieldset class="form__row form__row_js">
+							<legend class="form__row-caption form__row-caption_js">Уровень владения JavaScript</legend>
+							<div class="slider form__slider">
+								<div class="slider__thumb"></div>
+								<ul class="list list list_inline">
+									<li class="list__item list__item_inline slider__item">Не владею</li>
+									<li class="list__item list__item_inline slider__item">Использую готовые решения</li>
+									<li class="list__item list__item_inline slider__item">Использую готовые решения
+										<br> и умею их переделывать</li>
+									<li class="list__item list__item_inline slider__item">Пишу сложные скрипты</li>
+								</ul>
+							</div>
+						</fieldset>
+						<div class="input form__row form__row_input display-flex">
+							<label for="date" class="input__label form__row-caption">Дата заполнения</label>
+							<div class="input__wrapper input__wrapper_date">
+								<input class="input__input" type="text" name="date" value="26.03.2017" id="date" />
+							</div>
+						</div>
+					</form>
+				</div>
+			</main>
+		</div>
+		<script src="./assets/scripts/app.min.js"></script>
+	</body>
+
+</html>
